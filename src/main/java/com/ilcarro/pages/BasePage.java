@@ -50,4 +50,7 @@ public class BasePage {
 
 
     }
+    public void tearDown() {
+        driver.quit();
+    }
 }
